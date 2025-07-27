@@ -1,11 +1,9 @@
-# Solution to MATLAB and Simulink Challenge project <'project number'> <'Project Title'>
-This is a template repo for MATLAB and Simulink Challenge Project solutions.
+#  Solution to MATLAB and Simulink Challenge project number 210 Wetland Change-HSI
 
-Please add the following items:
 
 [Program link](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub)
 
-[Project description link]<Add link to the project description from the list of projects above>
+[Project description link]<Add [link to the project description from the list of projects above](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/projects/Change%20Detection%20in%20Hyperspectral%20Imagery)>
 
 
 # Project details
