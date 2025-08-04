@@ -33,7 +33,6 @@ This method helps quantify wetland shrinkage, track encroachment, and support en
 
 
 # How to run section
-//Please explain step by step how to run the code/model and include information about what toolboxes and other resources needed to run it.
 
 Required Toolboxes and Resources
 
@@ -44,7 +43,8 @@ Required Toolboxes and Resources
 - **Hyperspectral Dataset:** Sample data provided in the `data/` folder; use your own compatible hyperspectral imagery for custom analysis
 - **Adequate System RAM and Storage:** Processing hyperspectral data can be memory-intensive; at least 8GB RAM recommended
 - **Basic MATLAB Knowledge:** Familiarity with running scripts and managing the MATLAB environment
-
+  
+  How to run 
 1. Ensure you have MATLAB (R2021a or later) installed with the Image Processing and Mapping Toolboxes.
 2. Download or unzip the project files to your local machine.
 3. Open MATLAB and add the project folder to your MATLAB path.
