@@ -9,30 +9,49 @@
 # Project details
 A description of the implementation and the approached adopted.
 
-wetland-degradation-change-detection/
-├── data/ # Sample hyperspectral/multispectral images
-├── notebooks/ # Jupyter/MATLAB Live Scripts
-│ ├── ndvi_calculation.mlx
-│ └── change_detection.mlx
-├── src/ # Core MATLAB code/scripts
-│ ├── preprocess_data.m
-│ ├── calculate_ndvi.m
-│ ├── calculate_ndwi.m
-│ ├── classify_landcover.m
-│ └── generate_change_maps.m
-├── outputs/ # Results
-│ ├── ndvi_maps/
-│ ├── ndwi_maps/
-│ ├── degradation_maps/
-│ └── area_stats.csv
-├── figures/ # PNGs or JPEGs for visualizations
-├── README.md # You’ll find it below ↓
-├── requirements.txt # MATLAB toolboxes or external tools
-└── LICENSE
+🛰️ Project Details
+
+This project focuses on detecting and mapping wetland loss using hyperspectral remote sensing. Multi-temporal hyperspectral data was analyzed in MATLAB to identify changes in water coverage over time.
+
+✅ Implementation Overview
+
+NDWI (Normalized Difference Water Index) was calculated from hyperspectral bands for multiple years.
+
+ΔNDWI (change in NDWI over time) was used to detect waterbody shrinkage or expansion.
+
+NDVI was optionally used to mask out vegetated areas and isolate open water.
+
+The final output includes:
+
+Wetland loss map
+
+Binary change layer (wetland → non-wetland)
+
+Area statistics showing total loss in square kilometers or percentage
+
+This method helps quantify wetland shrinkage, track encroachment, and support environmental monitoring efforts.
+
 
 # How to run section
-Please explain step by step how to run the code/model and include information about what toolboxes and other resources needed to run it.
+//Please explain step by step how to run the code/model and include information about what toolboxes and other resources needed to run it.
 
+Required Toolboxes and Resources
+
+- **MATLAB Version:** R2021a or later (recommended for compatibility)
+- **Image Processing Toolbox:** For image analysis and processing functions
+- **Mapping Toolbox:** For geospatial data handling and visualization
+- **Statistics and Machine Learning Toolbox (optional):** If classification or advanced analysis is included
+- **Hyperspectral Dataset:** Sample data provided in the `data/` folder; use your own compatible hyperspectral imagery for custom analysis
+- **Adequate System RAM and Storage:** Processing hyperspectral data can be memory-intensive; at least 8GB RAM recommended
+- **Basic MATLAB Knowledge:** Familiarity with running scripts and managing the MATLAB environment
+
+1. Ensure you have MATLAB (R2021a or later) installed with the Image Processing and Mapping Toolboxes.
+2. Download or unzip the project files to your local machine.
+3. Open MATLAB and add the project folder to your MATLAB path.
+4. Open and run the main script (`main.m`) or the relevant script that executes the wetland degradation detection workflow.
+5. The program will process the included sample data and generate output maps and statistics automatically.
+6. Check the `output/` folder for generated results including degradation maps and area statistics.
+   
 # Demo
 Add a video or animated gif/picture to showcase the code in operation.
   
