@@ -53,7 +53,22 @@ Required Toolboxes and Resources
 6. Check the `output/` folder for generated results including degradation maps and area statistics.
    
 # Demo
-Add a video or animated gif/picture to showcase the code in operation.
-  
+
+https://github.com/user-attachments/assets/5bfed483-5430-4eb2-86cf-af20d92e2c3a
+
 # Reference
+
+🛠️ Tools & Technologies
+MATLAB (for image processing & visualization)
+Landsat-8 Surface Reflectance data (USGS Earth Explorer)
+NDWI (McFeeters, 1996) for water detection
+
+🌐 Data Source
+Satellite imagery was obtained from USGS Earth Explorer:
+🔗 https://earthexplorer.usgs.gov
+(Raw data is not included in this repository due to size and licensing restrictions.)
+
+📖 References
+1. McFeeters, S. K. (1996). The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features. International Journal of Remote Sensing, 17(7), 1425–1432.
+2. USGS Landsat-8 Data User Handbook.
 Add reference papers, data, or supporting material that has been used, if any.
